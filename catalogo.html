@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Productos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos de Select2 -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/logo_bw.png" >
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar navbar-expand-lg bg-dark">
+          <div class="container-fluid">
+            <a href="index.html" aria-label="Inicio">
+              <img src="img/logo_bw.png" alt="logo_empresa" class="logo_empresa">
+            </a>      
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon bg-light"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="index.html#Contacto">CONTACTO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">CATÁLOGO</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </div>
+    <main>
+      <section class="container my-5">
+        <div class="row justify-content-center g-4">
+          <div class="col-md-5">
+            <label for="filter-category" class="form-label fw-bold text-dark">🔧 Filtrar por categoría:</label>
+            <select id="filter-category" class="form-select select2-custom">
+                <option value="all">Todos</option>
+                <option value="ACTUADOR AIRE">Actuador Aire</option>
+                <option value="AIRBAG">Airbag</option>
+                <option value="ALTERNADOR">Alternadores</option>
+                <option value="ARBOL DE LEVA">Arbol de Levas</option>
+                <option value="ARAÑA">Araña</option>
+                <option value="Amortiguador">Amortiguador</option>
+                <option value="AXIAL">Axial</option>
+                <option value="ARRANQUE">Arranque</option>
+                <option value="BANDA DE ACCESORIO">Banda de Accesorio</option>
+                <option value="BALANCINES">Balancines</option>
+                <option value="BANDA BOMBA ACEITE">Banda Bomba Aceite</option>
+                <option value="BANDA DISTRIBUCION">Banda Distribución</option>
+                <option value="BARRA ESTABILIZADORA">Barra Estabilizadora</option>
+                <option value="BARRA LINK">Barra Link</option>
+                <option value="BASE AMORTIGUADOR">Base Amortiguador</option>
+                <option value="BASE DE CAJA">Base de Caja</option>
+                <option value="BASE DE MOTOR">Base de Motor</option>
+                <option value="BAYONETA">Bayoneta</option>
+                <option value="BOBINA">Bobina</option>
+                <option value="BOMBA ACEITE">Bomba de Aceite</option>
+                <option value="BOMBA DE AGUA">Bomba de Agua</option>
+                <option value="BOMBA DE COMBUSTIBLE Y PARTES">Bomba de Combustible y Partes</option>
+                <option value="BOMBA HIDRAULICA">Bomba Hidraulica</option>
+                <option value="BOYA / MEDIDOR DE GASOLINA">Boya / Medidor de Gasolina</option>
+                <option value="BUJES / BOCIN">Bujes / Bocin</option>
+                <option value="BUJIA">Bujias</option>
+                <option value="CABEZOTE">Cabezote</option>
+                <option value="CABLE DE BUJIA">Cable de Bujia</option>
+                <option value="CABLE DE EMBRAGUE">Cable de Embrague</option>
+                <option value="CABLE DE FRENO">Cable de Freno</option>
+                <option value="CABLE SELECTOR DE CAMBIOS">Cable Selector de Cambios</option>
+                <option value="CADENA DE DISTRIBUCION">Cadena de Distribucion</option>
+                <option value="CANISTER">Canister</option>
+                <option value="CARTER">Carter</option>
+                <option value="CAUCHOS BARRA ESTABILIZADORA">Caucho Barra Estabilizadora</option>
+                <option value="CHAPA BANCADA">Chapa bancada</option>
+                <option value="CIGUEÑAL">Cigüeñal</option>
+                <option value="CILINDRO EMBRAGUE PRINCIPAL">Cilindro Embrague Principal</option>
+                <option value="CILINDRO PPAL FRENO">Cilindro Principal Freno</option>
+                <option value="CILINDRO RUEDA">Cilindro Rueda</option>
+                <option value="CILINDRO DE EMBRAGUE AUXILIAR">Cilindro Embrague Auxiliar</option>
+                <option value="CONDENSADOR">Condensador</option>
+                <option value="CREMALLERA">Cremallera</option>
+                <option value="CUERPO DE ACELERACION">Cuerpo de Aceleracion</option>
+                <option value="DEPURADORES">Depurador</option>
+                <option value="DISCO DE FRENO">Disco de Freno</option>
+                <option value="DISTRIBUIDOR DE AGUA">Distribuidor de Agua</option>
+                <option value="EJE COMPLETO">Eje Completo</option>
+                <option value="ELECTROVENTILADOR">Electroventilador</option>
+                <option value="EMPAQUE CABEZOTE">Empaque Cabezote</option>
+                <option value="EMPAQUE TAPA VALVULA">Empaque Tapa Valvula</option>
+                <option value="ENFRIADOR">Enfriador</option>
+                <option value="ENGRANAJE O PIÑON">Engranaje o Piñon</option>
+                <option value="ESPIRALES">Espirales</option>
+                <option value="FAROS">Faros</option>
+                <option value="FILTRO ACEITE">Filtro Aceite</option>
+                <option value="FILTRO AIRE">Filtro Aire</option>
+                <option value="FILTRO AIRE ACONDICIONADO">Filtro Aire Acondicionado</option>
+                <option value="FILTRO DE GASOLINA">Filtro Gasolina</option>
+                <option value="ZAPATA">Zapata</option>
+                <option value="GUARDAPOLVO">Guardapolvo</option>
+                <option value="GUIA CADENA DISTRIBUCION">Guia Cadena Distribucion</option>
+                <option value="HORQUILLA">Horquilla</option>
+                <option value="INYECTOR">Inyector</option>
+                <option value="JUEGO DE EMPAQUE COMPLETO">Juego De Empaque Completo</option>
+                <option value="KIT DE DISTRIBUCION">Kit de Distribucion</option>
+                <option value="KIT EMBRAGUE">Kit de Embrague</option>
+                <option value="KIT SATELITE Y PLANETARIO">Kit Satelite y Planetario</option>
+                <option value="MANGUERA DE ADMISION">Manguera de Admision</option>
+                <option value="MESA DE SUSPENSION">Mesa de Suspension</option>
+                <option value="MANZANA">Manzana</option>
+                <option value="PASTILLA DE FRENO">Pastilla de Freno</option>
+                <option value="PALANCA DE LUCES">Palanca de Luces</option>
+                <option value="MULTIPLE ADMISION">Multiple de Admision</option>
+                <option value="MOTOR LIMPIA PARABRISA">Motor Limpia Parabrisa</option>
+                <option value="MOTOR 3/4">Motor 3/4</option>
+                <option value="MOQUETA">Moqueta</option>
+                <option value="PILA DE COMBUSTIBLE">Pila de Gasolina</option>
+                <option value="PIñON DISTRIBUCION">Piñon Distribucion</option>
+                <option value="POLEA PIñON">Polea Piñon</option>
+                <option value="PROPULSORES">Propulsores</option>
+                <option value="PUENTE DE MOTOR">Puente De Motor</option>
+                <option value="PUNTA HOMOCINETICA">Punta Homocinetica</option>
+                <option value="RADIADOR">Radiador</option>
+                <option value="REGULADOR DE VOLTAJE">Regulador de Voltaje</option>
+                <option value="RELAY">Relay</option>
+                <option value="RESERVORIO DE AGUA">Reservorio de Agua</option>
+                <option value="RESERVORIO HIDRAULICO">Reservorio Hidraulico</option>
+                <option value="RESERVORIO LIMP PARABRISA">Reservorio Limp Parabrisa</option>
+                <option value="RESONADOR">Resonador</option>
+                <option value="RETENEDOR">Retenedor</option>
+                <option value="RINES MOTOR">Rines Motor</option>
+                <option value="ROTULA">Rotula</option>
+                <option value="RULIMAN DELANTERO">Ruliman Delantero</option>
+                <option value="RULIMAN EMBRAGUE HID">Ruliman Embrague Hid</option>
+                <option value="RULIMAN POST">Ruliman Post</option>
+            </select>
+            </div>
+
+            <div class="col-md-5">
+              <label for="filter-vehicle" class="form-label fw-bold text-dark">🚗 Filtrar por vehículo:</label>
+              <select id="filter-vehicle" class="form-select select2-custom">
+                <option value="all">Todos</option>
+                <option value="Aveo">Aveo</option>
+                <option value="Sail">Sail</option>
+                <option value="Optra">Optra</option>
+                <option value="Spark">Spark</option>
+                <option value="Spark GT">Spark GT</option>
+                <option value="Beat">Beat</option>
+                <option value="Corsa">Corsa</option>
+                <option value="D-Max">D-Max</option>
+                <option value="Grand Vitara">Grand Vitara</option>
+                <option value="Grand Vitara SZ">Grand Vitara SZ</option>
+                <option value="Van N300">Van N300</option>
+                <option value="Esteem">Esteem</option>
+                <option value="Tracker">Tracker</option>
+                <option value="Cruze">Cruze</option>
+                <option value="Captiva">Captiva</option>
+                <option value="Onix">Onix</option>
+                <option value="Joy">Joy</option>
+                <option value="Orlando">Orlando</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Scross">Scross</option>
+                <option value="Nissan">Nissan</option>
+                <option value="Hyundai">Hyundai</option>
+                <option value="Cavalier">Cavalier</option>
+                <option value="Kia">Kia</option>
+                <option value="Groove">Groove</option>
+                <option value="Renault">Renault</option>
+              </select>
+            </div>
+        </section>
+
+        <div class="text-center mt-4">
+          <button id="load-products" class="btn btn-danger btn-lg px-5 shadow">Cargar productos</button>
+        </div>
+      
+        <div id="product-container" class="mt-5"></div>
+      
+    </main>
+
+    <footer class="footer bg-dark text-white py-5">
+      <div class="container">
+        <div class="row text-center text-md-start">
+          <!-- Sección de Enlaces -->
+          <div class="col-md-3 mb-4">
+            <h4 class="fw-bold">Enlaces</h4>
+            <ul class="list-unstyled">
+              <li><a class="nav-link-footer" href="catalogo.html">Catálogo</a></li>
+            </ul>
+          </div>
+
+          <!-- Sección de Contacto -->
+          <div class="col-md-5 mb-4">
+            <h4 class="fw-bold">Contacto</h4>
+            <ul class="list-unstyled">
+              <li><strong>Número Telefónico:</strong> <a href="https://wa.me/593989597813">0989597813</a></li>
+              <li><strong>Email:</strong> <a href="mailto:camsadis.ec@gmail.com">camsadis.ec@gmail.com</a></li>
+              <li><strong>Dirección:</strong> <a href="https://maps.app.goo.gl/YkQUL87L5MhCUjjS9">De Las Mentas y De Los Manzanos, El Edén - Quito</a></li>
+            </ul>
+          </div>
+
+          <!-- Sección de Redes Sociales -->
+          <div class="col-md-4">
+            <h4 class="fw-bold">Síguenos</h4>
+            <div class="d-flex justify-content-center justify-content-md-start gap-3">
+              <a href="https://www.instagram.com/camsaof" target="_blank">
+                <img src="img/instagram_logo.png" alt="Instagram" class="social_media_logos">
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=61553571237386" target="_blank">
+                <img src="img/facebook_logo.png" alt="Facebook" class="social_media_logos">
+              </a>
+              <a href="https://www.tiktok.com/@camsaof" target="_blank">
+                <img src="img/tt_logo.png" alt="TikTok" class="social_media_logos">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Línea divisoria y derechos reservados -->
+        <hr class="mt-4">
+        <p class="text-center">© 2025 CAMSAOF. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- jQuery y Select2 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>  
+
+</body>
+</html>
