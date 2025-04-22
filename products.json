@@ -6620,5 +6620,150 @@
     "precio": "$5.00",
     "marca": "NTN",
     "imagen": "img/IMG PRODUCTOS 2/92.png"
+  },
+  {
+    "id": 593,
+    "categoria": "SELECTOR DE CAMBIO / KIT DE VARILLA",
+    "nombre": "KIT DE GUÍA DE VARILLAJE CHEVROLET AVEO /OPTRA",
+    "vehiculo": "Aveo",
+    "vehiculo2":"Optra",
+    "stock": "Disponible",
+    "codigo": "25186917",
+    "precio": "$3.00",
+    "marca": "GM",
+    "imagen": "img/IMG PRODUCTOS 2/93.png"
+  },
+  {
+    "id": 594,
+    "categoria": "SELECTOR DE CAMBIO / KIT DE VARILLA",
+    "nombre": "SELECTOR DE CAMBIO COMPLETO CHEVROLET AVEO",
+    "vehiculo": "Aveo",
+    "stock": "Disponible",
+    "codigo": "96332660",
+    "precio": "$12.00",
+    "marca": "GM",
+    "imagen": "img/IMG PRODUCTOS 2/94.png"
+  },
+  {
+    "id": 595,
+    "categoria": "SELENOIDE",
+    "nombre": "SELENOIDE BARRA LEVA ADM-ESC CHEV. CRUZE; TRACKER",
+    "vehiculo": "Cruze",
+    "vehiculo2":"Tracker",
+    "stock": "Disponible",
+    "codigo": "55567050",
+    "precio": "$70.00",
+    "marca": "GM",
+    "imagen": "img/IMG PRODUCTOS 2/95.png"
+  },
+  {
+    "id": 596,
+    "categoria": "SELLO DE VALVULA",
+    "nombre": "SELLOS DE VÁLVULA CHEV. AVEO ACTIVO 1.4 1.6/EMOTION 1.6",
+    "vehiculo": "Aveo",
+    "stock": "Disponible",
+    "codigo": "96353035",
+    "precio": "$10.00",
+    "marca": "GM",
+    "imagen": "img/IMG PRODUCTOS 2/96.png"
+  },
+  {
+    "id": 597,
+    "categoria": "SENSOR ABS",
+    "nombre": "SENSOR ABS - CHEV SPARK GT 1.2 DELT. RH",
+    "vehiculo": "Spark GT",
+    "stock": "Disponible",
+    "codigo": "95937222",
+    "precio": "$15.00",
+    "marca": "GM",
+    "imagen": "img/IMG PRODUCTOS 2/97.png"
+  },
+  {
+    "id": 598,
+    "categoria": "SENSOR ABS",
+    "nombre": "SENSOR ABS - CHEV. SPARK GT 1.2 DELT. LH",
+    "vehiculo": "Spark GT",
+    "stock": "Disponible",
+    "codigo": "95937220",
+    "precio": "$15.00",
+    "marca": "GM",
+    "imagen": "img/IMG PRODUCTOS 2/98.png"
+  },
+  {
+    "id": 599,
+    "categoria": "SENSOR ABS",
+    "nombre": "SENSOR ABS - CHEV. SPARK GT 1.2 POST. LH",
+    "vehiculo": "Spark GT",
+    "stock": "Disponible",
+    "codigo": "95937223",
+    "precio": "$15.00",
+    "marca": "GM",
+    "imagen": "img/IMG PRODUCTOS 2/99.png"
+  },
+  {
+    "id": 600,
+    "categoria": "SENSOR ABS",
+    "nombre": "SENSOR ABS - CHEV. SPARK GT 1.2 POST. RH",
+    "vehiculo": "Spark GT",
+    "stock": "Disponible",
+    "codigo": "95937224",
+    "precio": "$15.00",
+    "marca": "GM",
+    "imagen": "img/IMG PRODUCTOS 2/100.png"
+  },
+  {
+    "id": 601,
+    "categoria": "SENSOR ABS",
+    "nombre": "SENSOR ABS DEL DERECHO CHEVROLET AVEO",
+    "vehiculo": "Aveo",
+    "stock": "Disponible",
+    "codigo": "96959998",
+    "precio": "$15.00",
+    "marca": "GM",
+    "imagen": "img/IMG PRODUCTOS 2/101.png"
+  },
+  {
+    "id": 602,
+    "categoria": "SENSOR ABS",
+    "nombre": "SENSOR ABS DEL IZQUIERDO CHEVROLET AVEO",
+    "vehiculo": "Aveo",
+    "stock": "Disponible",
+    "codigo": "96959997",
+    "precio": "$15.00",
+    "marca": "GM",
+    "imagen": "img/IMG PRODUCTOS 2/102.png"
+  },
+  {
+    "id": 603,
+    "categoria": "SENSOR ABS",
+    "nombre": "SENSOR ABS POST DERECHO CHEV AVEO",
+    "vehiculo": "Aveo",
+    "stock": "Disponible",
+    "codigo": "96473223",
+    "precio": "$15.00",
+    "marca": "GM",
+    "imagen": "img/IMG PRODUCTOS 2/103.png"
+  },
+  {
+    "id": 604,
+    "categoria": "SENSOR ABS",
+    "nombre": "SENSOR ABS POST IZQUIERDO CHEV AVEO",
+    "vehiculo": "Aveo",
+    "stock": "Disponible",
+    "codigo": "96473224",
+    "precio": "$15.00",
+    "marca": "GM",
+    "imagen": "img/IMG PRODUCTOS 2/104.png"
+  },
+  {
+    "id": 605,
+    "categoria": "SENSOR ABS",
+    "nombre": "SENSOR ABS POST IZQUIERDO CHEVROLET AVEO",
+    "vehiculo": "Aveo",
+    "stock": "Disponible",
+    "codigo": "95996129",
+    "precio": "$35.00",
+    "marca": "GM",
+    "imagen": "img/IMG PRODUCTOS 2/105.png"
   }
 ]
