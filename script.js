@@ -57,22 +57,22 @@ document.addEventListener('DOMContentLoaded', () => {
                     productDiv.innerHTML = `
                     <img src="${product.imagen}" alt="${product.nombre}" class="product-image">
                     <h3 class="product-style">${product.nombre}</h3>
-                    <strong><p class="product-style">Precio: ${product.precio}</p></strong>
+                    // <strong><p class="product-style">Precio: ${product.precio}</p></strong>
                     <p class="product-style">Categoría: ${product.categoria}</p>
                     <p class="product-style">Marca: ${product.marca}</p>
                     <p class="product-style">Codigo: ${product.codigo}</p>
-                    <strong><p class="product-style">Sin Stock</p></strong>
+                    // <strong><p class="product-style">Sin Stock</p></strong>
                 `;
                 container.appendChild(productDiv);
                 } else if(product.stock === "Disponible") {
                     productDiv.innerHTML = `
                     <img src="${product.imagen}" alt="${product.nombre}" class="product-image">
                     <h3 class="product-style">${product.nombre}</h3>
-                    <strong><p class="product-style">Precio: ${product.precio}</p></strong>
+                    // <strong><p class="product-style">Precio: ${product.precio}</p></strong>
                     <p class="product-style">Categoría: ${product.categoria}</p>
                     <p class="product-style">Marca: ${product.marca}</p>
                     <p class="product-style">Codigo: ${product.codigo}</p>
-                    <strong><p class="product-style">Disponible</p></strong>
+                    // <strong><p class="product-style">Disponible</p></strong>
                     `;
                     container.appendChild(productDiv);
                 }
